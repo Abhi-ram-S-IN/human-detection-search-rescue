@@ -1,0 +1,30 @@
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+venv/
+env/
+.venv/
+
+# Secrets and local config (never commit these)
+.env
+*.env
+local_settings.py
+
+# Django
+db.sqlite3
+*.log
+media/
+
+# Generated at runtime
+Detect_Hu_In_SAR_app/static/detections/
+Detect_Hu_In_SAR_app/static/videos/
+
+# Large model weights (download separately, see README)
+*.weights
+
+# IDE / OS
+.idea/
+.vscode/
+.DS_Store
+Thumbs.db
